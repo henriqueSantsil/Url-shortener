@@ -1,18 +1,10 @@
-# Desafio BackEnd BR 
+# How to setup the project
 
-Este repositório foi feito para publicar o desafio 'Encurtador de URL' proposto neste [repositório](https://github.com/backend-br/desafios). 
+    It's necessary to have node.js and MySql installed in your machine (here the name of the database can be by default "encurtador", but you can change it going to: encurtador-url\db\conn.js);
 
-# Como usar?
+    To install the project´s dependencies you can enter this in your console: ** npm install **;
 
-Você precisa ter o Node.JS instalado na sua máquina e o MySQL. Além disso você precisa criar uma tabela com as seguintes colunas:
 
-```
-+--------------+-------------+------+-----+---------+-------+
-| Field        | Type        | Null | Key | Default | Extra |
-+--------------+-------------+------+-----+---------+-------+
-| url_original | varchar(30) | NO   |     | NULL    |       |
-| url_curta    | varchar(10) | NO   |     | NULL    |       |
-| validade     | date        | YES  |     | NULL    |       |
-+--------------+-------------+------+-----+---------+-------+
-```
-Também será necessário configurar as variáveis de ambiente em um arquiv `.env`. Após fazer tudo isso rode no seu terminal o comando `npm install` e se divirta. 
+
+
+
